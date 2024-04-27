@@ -5,3 +5,5 @@ from django.http.response import HttpResponse
 def home(request):
   return HttpResponse('Patinrider - Home')
 
+def about(request):
+  return HttpResponse('Patinrider - About')
