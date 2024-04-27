@@ -3,7 +3,7 @@ from django.http.response import HttpResponse
 
 # Create your views here.
 def home(request):
-  return HttpResponse('Patinrider - Home')
+  return HttpResponse('Patinzrider - Home')
 
 def about(request):
-  return HttpResponse('Patinrider - About')
+  return HttpResponse('Patinrzider - About')
