@@ -6,4 +6,4 @@ def home(request):
   return render(request, 'app_general/home.html')
 
 def about(request):
-  return HttpResponse('<h2>Patinrzider - About</h2>')
+  return render(request, 'app_general/about.html')
